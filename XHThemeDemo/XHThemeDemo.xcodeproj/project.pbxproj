@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C65B7000F26BC96048172EB6 /* libPods-XHThemeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E94E42024B159361CDD0CDD /* libPods-XHThemeDemo.a */; };
+		FCC96ADF290F5AEE00CFF694 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96ADE290F5AEE00CFF694 /* AppDelegate.m */; };
+		FCC96AE2290F5AEE00CFF694 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96AE1290F5AEE00CFF694 /* SceneDelegate.m */; };
+		FCC96AE5290F5AEE00CFF694 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96AE4290F5AEE00CFF694 /* ViewController.m */; };
+		FCC96AE8290F5AEE00CFF694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC96AE6290F5AEE00CFF694 /* Main.storyboard */; };
+		FCC96AEA290F5AF000CFF694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC96AE9290F5AF000CFF694 /* Assets.xcassets */; };
+		FCC96AED290F5AF000CFF694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC96AEB290F5AF000CFF694 /* LaunchScreen.storyboard */; };
+		FCC96AF0290F5AF000CFF694 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96AEF290F5AF000CFF694 /* main.m */; };
+		FCC96B50290F5B8700CFF694 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96AFC290F5B8700CFF694 /* DetailViewController.m */; };
+		FCC96B51290F5B8700CFF694 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96B00290F5B8700CFF694 /* HomeViewController.m */; };
+		FCC96B52290F5B8700CFF694 /* SetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96B05290F5B8700CFF694 /* SetingViewController.m */; };
+		FCC96B53290F5B8700CFF694 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96B0A290F5B8700CFF694 /* MineViewController.m */; };
+		FCC96B54290F5B8700CFF694 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96B0D290F5B8700CFF694 /* RootNavigationController.m */; };
+		FCC96B55290F5B8700CFF694 /* RootTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96B0E290F5B8700CFF694 /* RootTabViewController.m */; };
+		FCC96B56290F5B8700CFF694 /* XHThemeService.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96B12290F5B8700CFF694 /* XHThemeService.m */; };
+		FCC96B57290F5B8700CFF694 /* ThemeSandBox0.zip in Resources */ = {isa = PBXBuildFile; fileRef = FCC96B16290F5B8700CFF694 /* ThemeSandBox0.zip */; };
+		FCC96B58290F5B8700CFF694 /* XHThemeConfigExam.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96B19290F5B8700CFF694 /* XHThemeConfigExam.m */; };
+		FCC96B59290F5B8700CFF694 /* ThemeClass1.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCC96B1C290F5B8700CFF694 /* ThemeClass1.plist */; };
+		FCC96B6E290F5B8700CFF694 /* ThemeClass0.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCC96B39290F5B8700CFF694 /* ThemeClass0.plist */; };
+		FCC96B6F290F5B8700CFF694 /* libXHThemeTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC96B4F290F5B8700CFF694 /* libXHThemeTool.a */; };
+		FCC96B71290F5B9E00CFF694 /* ThemeClass1 in Resources */ = {isa = PBXBuildFile; fileRef = FCC96B70290F5B9E00CFF694 /* ThemeClass1 */; };
+		FCC96B73290F5BA500CFF694 /* ThemeClass0 in Resources */ = {isa = PBXBuildFile; fileRef = FCC96B72290F5BA500CFF694 /* ThemeClass0 */; };
+		FCC96B76290F649A00CFF694 /* XHThemeTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FCC96B75290F649900CFF694 /* XHThemeTool.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15184E0ACB352F594DBEF83D /* Pods-XHThemeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHThemeDemo.release.xcconfig"; path = "Target Support Files/Pods-XHThemeDemo/Pods-XHThemeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		17E1DD6F0075700E6BEDA06A /* Pods-XHThemeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHThemeDemo.debug.xcconfig"; path = "Target Support Files/Pods-XHThemeDemo/Pods-XHThemeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3E94E42024B159361CDD0CDD /* libPods-XHThemeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHThemeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC96ADA290F5AEE00CFF694 /* XHThemeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHThemeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC96ADD290F5AEE00CFF694 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCC96ADE290F5AEE00CFF694 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCC96AE0290F5AEE00CFF694 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FCC96AE1290F5AEE00CFF694 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FCC96AE3290F5AEE00CFF694 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCC96AE4290F5AEE00CFF694 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCC96AE7290F5AEE00CFF694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC96AE9290F5AF000CFF694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC96AEC290F5AF000CFF694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCC96AEE290F5AF000CFF694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC96AEF290F5AF000CFF694 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCC96AFC290F5B8700CFF694 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FCC96AFD290F5B8700CFF694 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FCC96B00290F5B8700CFF694 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FCC96B01290F5B8700CFF694 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FCC96B05290F5B8700CFF694 /* SetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetingViewController.m; sourceTree = "<group>"; };
+		FCC96B06290F5B8700CFF694 /* SetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetingViewController.h; sourceTree = "<group>"; };
+		FCC96B09290F5B8700CFF694 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		FCC96B0A290F5B8700CFF694 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		FCC96B0C290F5B8700CFF694 /* RootTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabViewController.h; sourceTree = "<group>"; };
+		FCC96B0D290F5B8700CFF694 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		FCC96B0E290F5B8700CFF694 /* RootTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabViewController.m; sourceTree = "<group>"; };
+		FCC96B0F290F5B8700CFF694 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		FCC96B11290F5B8700CFF694 /* XHThemeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHThemeService.h; sourceTree = "<group>"; };
+		FCC96B12290F5B8700CFF694 /* XHThemeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHThemeService.m; sourceTree = "<group>"; };
+		FCC96B13290F5B8700CFF694 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FCC96B16290F5B8700CFF694 /* ThemeSandBox0.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = ThemeSandBox0.zip; sourceTree = "<group>"; };
+		FCC96B18290F5B8700CFF694 /* XHThemeConfigExam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHThemeConfigExam.h; sourceTree = "<group>"; };
+		FCC96B19290F5B8700CFF694 /* XHThemeConfigExam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHThemeConfigExam.m; sourceTree = "<group>"; };
+		FCC96B1C290F5B8700CFF694 /* ThemeClass1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThemeClass1.plist; sourceTree = "<group>"; };
+		FCC96B39290F5B8700CFF694 /* ThemeClass0.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ThemeClass0.plist; sourceTree = "<group>"; };
+		FCC96B3E290F5B8700CFF694 /* UITabBar+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Theme.h"; sourceTree = "<group>"; };
+		FCC96B3F290F5B8700CFF694 /* UITabBarItem+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Theme.h"; sourceTree = "<group>"; };
+		FCC96B40290F5B8700CFF694 /* UITextView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Theme.h"; sourceTree = "<group>"; };
+		FCC96B41290F5B8700CFF694 /* UIButton+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Theme.h"; sourceTree = "<group>"; };
+		FCC96B42290F5B8700CFF694 /* UINavigationBar+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Theme.h"; sourceTree = "<group>"; };
+		FCC96B43290F5B8700CFF694 /* UIView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Theme.h"; sourceTree = "<group>"; };
+		FCC96B44290F5B8700CFF694 /* NSObject+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Theme.h"; sourceTree = "<group>"; };
+		FCC96B45290F5B8700CFF694 /* UIImageView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Theme.h"; sourceTree = "<group>"; };
+		FCC96B46290F5B8700CFF694 /* CAShapeLayer+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Theme.h"; sourceTree = "<group>"; };
+		FCC96B47290F5B8700CFF694 /* CALayer+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Theme.h"; sourceTree = "<group>"; };
+		FCC96B48290F5B8700CFF694 /* UILabel+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Theme.h"; sourceTree = "<group>"; };
+		FCC96B49290F5B8700CFF694 /* UITextField+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Theme.h"; sourceTree = "<group>"; };
+		FCC96B4B290F5B8700CFF694 /* XHThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHThemeManager.h; sourceTree = "<group>"; };
+		FCC96B4D290F5B8700CFF694 /* XHThemeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHThemeHeader.h; sourceTree = "<group>"; };
+		FCC96B4F290F5B8700CFF694 /* libXHThemeTool.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXHThemeTool.a; sourceTree = "<group>"; };
+		FCC96B70290F5B9E00CFF694 /* ThemeClass1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ThemeClass1; sourceTree = "<group>"; };
+		FCC96B72290F5BA500CFF694 /* ThemeClass0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ThemeClass0; sourceTree = "<group>"; };
+		FCC96B75290F649900CFF694 /* XHThemeTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = XHThemeTool.podspec; path = ../XHThemeTool.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC96AD7290F5AEE00CFF694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC96B6F290F5B8700CFF694 /* libXHThemeTool.a in Frameworks */,
+				C65B7000F26BC96048172EB6 /* libPods-XHThemeDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75310426F0B514F0CC0FE8DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E94E42024B159361CDD0CDD /* libPods-XHThemeDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA5C2646A4BA616C62915D54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17E1DD6F0075700E6BEDA06A /* Pods-XHThemeDemo.debug.xcconfig */,
+				15184E0ACB352F594DBEF83D /* Pods-XHThemeDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCC96AD1290F5AEE00CFF694 = {
+			isa = PBXGroup;
+			children = (
+				FCC96B74290F647E00CFF694 /* PodSpec */,
+				FCC96ADC290F5AEE00CFF694 /* XHThemeDemo */,
+				FCC96ADB290F5AEE00CFF694 /* Products */,
+				AA5C2646A4BA616C62915D54 /* Pods */,
+				75310426F0B514F0CC0FE8DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC96ADB290F5AEE00CFF694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96ADA290F5AEE00CFF694 /* XHThemeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC96ADC290F5AEE00CFF694 /* XHThemeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96AF7290F5B8700CFF694 /* Demo */,
+				FCC96B3A290F5B8700CFF694 /* XHThemeTool */,
+				FCC96AF6290F5B0200CFF694 /* Applications */,
+			);
+			path = XHThemeDemo;
+			sourceTree = "<group>";
+		};
+		FCC96AF6290F5B0200CFF694 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96ADD290F5AEE00CFF694 /* AppDelegate.h */,
+				FCC96ADE290F5AEE00CFF694 /* AppDelegate.m */,
+				FCC96AE0290F5AEE00CFF694 /* SceneDelegate.h */,
+				FCC96AE1290F5AEE00CFF694 /* SceneDelegate.m */,
+				FCC96AE3290F5AEE00CFF694 /* ViewController.h */,
+				FCC96AE4290F5AEE00CFF694 /* ViewController.m */,
+				FCC96AE6290F5AEE00CFF694 /* Main.storyboard */,
+				FCC96AE9290F5AF000CFF694 /* Assets.xcassets */,
+				FCC96AEB290F5AF000CFF694 /* LaunchScreen.storyboard */,
+				FCC96AEE290F5AF000CFF694 /* Info.plist */,
+				FCC96AEF290F5AF000CFF694 /* main.m */,
+			);
+			name = Applications;
+			sourceTree = "<group>";
+		};
+		FCC96AF7290F5B8700CFF694 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96AF8290F5B8700CFF694 /* Classes */,
+				FCC96B10290F5B8700CFF694 /* Utils */,
+				FCC96B14290F5B8700CFF694 /* Sources */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		FCC96AF8290F5B8700CFF694 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96AF9290F5B8700CFF694 /* Home */,
+				FCC96B02290F5B8700CFF694 /* Mine */,
+				FCC96B0B290F5B8700CFF694 /* Base */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FCC96AF9290F5B8700CFF694 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96AFA290F5B8700CFF694 /* Detail */,
+				FCC96AFE290F5B8700CFF694 /* Index */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FCC96AFA290F5B8700CFF694 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96AFB290F5B8700CFF694 /* ViewControllers */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FCC96AFB290F5B8700CFF694 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96AFC290F5B8700CFF694 /* DetailViewController.m */,
+				FCC96AFD290F5B8700CFF694 /* DetailViewController.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FCC96AFE290F5B8700CFF694 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96AFF290F5B8700CFF694 /* ViewControllers */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		FCC96AFF290F5B8700CFF694 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B00290F5B8700CFF694 /* HomeViewController.m */,
+				FCC96B01290F5B8700CFF694 /* HomeViewController.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FCC96B02290F5B8700CFF694 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B03290F5B8700CFF694 /* Seting */,
+				FCC96B07290F5B8700CFF694 /* Index */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		FCC96B03290F5B8700CFF694 /* Seting */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B04290F5B8700CFF694 /* ViewControllers */,
+			);
+			path = Seting;
+			sourceTree = "<group>";
+		};
+		FCC96B04290F5B8700CFF694 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B05290F5B8700CFF694 /* SetingViewController.m */,
+				FCC96B06290F5B8700CFF694 /* SetingViewController.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FCC96B07290F5B8700CFF694 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B08290F5B8700CFF694 /* ViewControllers */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		FCC96B08290F5B8700CFF694 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B09290F5B8700CFF694 /* MineViewController.h */,
+				FCC96B0A290F5B8700CFF694 /* MineViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FCC96B0B290F5B8700CFF694 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B0C290F5B8700CFF694 /* RootTabViewController.h */,
+				FCC96B0D290F5B8700CFF694 /* RootNavigationController.m */,
+				FCC96B0E290F5B8700CFF694 /* RootTabViewController.m */,
+				FCC96B0F290F5B8700CFF694 /* RootNavigationController.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FCC96B10290F5B8700CFF694 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B11290F5B8700CFF694 /* XHThemeService.h */,
+				FCC96B12290F5B8700CFF694 /* XHThemeService.m */,
+				FCC96B13290F5B8700CFF694 /* PrefixHeader.pch */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FCC96B14290F5B8700CFF694 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B15290F5B8700CFF694 /* SandBoxData */,
+				FCC96B17290F5B8700CFF694 /* Config */,
+				FCC96B1A290F5B8700CFF694 /* ThemeSource */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FCC96B15290F5B8700CFF694 /* SandBoxData */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B16290F5B8700CFF694 /* ThemeSandBox0.zip */,
+			);
+			path = SandBoxData;
+			sourceTree = "<group>";
+		};
+		FCC96B17290F5B8700CFF694 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B18290F5B8700CFF694 /* XHThemeConfigExam.h */,
+				FCC96B19290F5B8700CFF694 /* XHThemeConfigExam.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		FCC96B1A290F5B8700CFF694 /* ThemeSource */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B1B290F5B8700CFF694 /* ThemeClass1 */,
+				FCC96B2D290F5B8700CFF694 /* ThemeClass0 */,
+			);
+			path = ThemeSource;
+			sourceTree = "<group>";
+		};
+		FCC96B1B290F5B8700CFF694 /* ThemeClass1 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B70290F5B9E00CFF694 /* ThemeClass1 */,
+				FCC96B1C290F5B8700CFF694 /* ThemeClass1.plist */,
+			);
+			path = ThemeClass1;
+			sourceTree = "<group>";
+		};
+		FCC96B2D290F5B8700CFF694 /* ThemeClass0 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B72290F5BA500CFF694 /* ThemeClass0 */,
+				FCC96B39290F5B8700CFF694 /* ThemeClass0.plist */,
+			);
+			path = ThemeClass0;
+			sourceTree = "<group>";
+		};
+		FCC96B3A290F5B8700CFF694 /* XHThemeTool */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B3B290F5B8700CFF694 /* Lib */,
+			);
+			path = XHThemeTool;
+			sourceTree = "<group>";
+		};
+		FCC96B3B290F5B8700CFF694 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B3C290F5B8700CFF694 /* Core */,
+				FCC96B4E290F5B8700CFF694 /* framework */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		FCC96B3C290F5B8700CFF694 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B3D290F5B8700CFF694 /* ThemeCategorys */,
+				FCC96B4A290F5B8700CFF694 /* Mgr */,
+				FCC96B4C290F5B8700CFF694 /* Headers */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FCC96B3D290F5B8700CFF694 /* ThemeCategorys */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B3E290F5B8700CFF694 /* UITabBar+Theme.h */,
+				FCC96B3F290F5B8700CFF694 /* UITabBarItem+Theme.h */,
+				FCC96B40290F5B8700CFF694 /* UITextView+Theme.h */,
+				FCC96B41290F5B8700CFF694 /* UIButton+Theme.h */,
+				FCC96B42290F5B8700CFF694 /* UINavigationBar+Theme.h */,
+				FCC96B43290F5B8700CFF694 /* UIView+Theme.h */,
+				FCC96B44290F5B8700CFF694 /* NSObject+Theme.h */,
+				FCC96B45290F5B8700CFF694 /* UIImageView+Theme.h */,
+				FCC96B46290F5B8700CFF694 /* CAShapeLayer+Theme.h */,
+				FCC96B47290F5B8700CFF694 /* CALayer+Theme.h */,
+				FCC96B48290F5B8700CFF694 /* UILabel+Theme.h */,
+				FCC96B49290F5B8700CFF694 /* UITextField+Theme.h */,
+			);
+			path = ThemeCategorys;
+			sourceTree = "<group>";
+		};
+		FCC96B4A290F5B8700CFF694 /* Mgr */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B4B290F5B8700CFF694 /* XHThemeManager.h */,
+			);
+			path = Mgr;
+			sourceTree = "<group>";
+		};
+		FCC96B4C290F5B8700CFF694 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B4D290F5B8700CFF694 /* XHThemeHeader.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		FCC96B4E290F5B8700CFF694 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B4F290F5B8700CFF694 /* libXHThemeTool.a */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		FCC96B74290F647E00CFF694 /* PodSpec */ = {
+			isa = PBXGroup;
+			children = (
+				FCC96B75290F649900CFF694 /* XHThemeTool.podspec */,
+			);
+			name = PodSpec;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC96AD9290F5AEE00CFF694 /* XHThemeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC96AF3290F5AF000CFF694 /* Build configuration list for PBXNativeTarget "XHThemeDemo" */;
+			buildPhases = (
+				D11E2CE118B1F522B05B6748 /* [CP] Check Pods Manifest.lock */,
+				FCC96AD6290F5AEE00CFF694 /* Sources */,
+				FCC96AD7290F5AEE00CFF694 /* Frameworks */,
+				FCC96AD8290F5AEE00CFF694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHThemeDemo;
+			productName = XHThemeDemo;
+			productReference = FCC96ADA290F5AEE00CFF694 /* XHThemeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC96AD2290F5AEE00CFF694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FCC96AD9290F5AEE00CFF694 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = FCC96AD5290F5AEE00CFF694 /* Build configuration list for PBXProject "XHThemeDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC96AD1290F5AEE00CFF694;
+			productRefGroup = FCC96ADB290F5AEE00CFF694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC96AD9290F5AEE00CFF694 /* XHThemeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC96AD8290F5AEE00CFF694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC96B76290F649A00CFF694 /* XHThemeTool.podspec in Resources */,
+				FCC96B59290F5B8700CFF694 /* ThemeClass1.plist in Resources */,
+				FCC96B57290F5B8700CFF694 /* ThemeSandBox0.zip in Resources */,
+				FCC96AED290F5AF000CFF694 /* LaunchScreen.storyboard in Resources */,
+				FCC96B6E290F5B8700CFF694 /* ThemeClass0.plist in Resources */,
+				FCC96B73290F5BA500CFF694 /* ThemeClass0 in Resources */,
+				FCC96AEA290F5AF000CFF694 /* Assets.xcassets in Resources */,
+				FCC96B71290F5B9E00CFF694 /* ThemeClass1 in Resources */,
+				FCC96AE8290F5AEE00CFF694 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D11E2CE118B1F522B05B6748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XHThemeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC96AD6290F5AEE00CFF694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC96B56290F5B8700CFF694 /* XHThemeService.m in Sources */,
+				FCC96B50290F5B8700CFF694 /* DetailViewController.m in Sources */,
+				FCC96B58290F5B8700CFF694 /* XHThemeConfigExam.m in Sources */,
+				FCC96AE5290F5AEE00CFF694 /* ViewController.m in Sources */,
+				FCC96ADF290F5AEE00CFF694 /* AppDelegate.m in Sources */,
+				FCC96AF0290F5AF000CFF694 /* main.m in Sources */,
+				FCC96B54290F5B8700CFF694 /* RootNavigationController.m in Sources */,
+				FCC96B52290F5B8700CFF694 /* SetingViewController.m in Sources */,
+				FCC96B55290F5B8700CFF694 /* RootTabViewController.m in Sources */,
+				FCC96AE2290F5AEE00CFF694 /* SceneDelegate.m in Sources */,
+				FCC96B51290F5B8700CFF694 /* HomeViewController.m in Sources */,
+				FCC96B53290F5B8700CFF694 /* MineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCC96AE6290F5AEE00CFF694 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC96AE7290F5AEE00CFF694 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCC96AEB290F5AF000CFF694 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC96AEC290F5AF000CFF694 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC96AF1290F5AF000CFF694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCC96AF2290F5AF000CFF694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC96AF4290F5AF000CFF694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E1DD6F0075700E6BEDA06A /* Pods-XHThemeDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XHThemeDemo/Demo/Utils/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XHThemeDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool/Lib/framework",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mryel.XHThemeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCC96AF5290F5AF000CFF694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15184E0ACB352F594DBEF83D /* Pods-XHThemeDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XHThemeDemo/Demo/Utils/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XHThemeDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool/Lib/framework",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mryel.XHThemeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC96AD5290F5AEE00CFF694 /* Build configuration list for PBXProject "XHThemeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC96AF1290F5AF000CFF694 /* Debug */,
+				FCC96AF2290F5AF000CFF694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC96AF3290F5AF000CFF694 /* Build configuration list for PBXNativeTarget "XHThemeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC96AF4290F5AF000CFF694 /* Debug */,
+				FCC96AF5290F5AF000CFF694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC96AD2290F5AEE00CFF694 /* Project object */;
+}

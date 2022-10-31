@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  iOS_ThemeForOC
+//
+//  Created by mryel on 2022/10/18.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#pragma mark - define
+
+#pragma mark - class
+
+#pragma mark - tools
+#import "XHThemeHeader.h"
+#import "XHThemeConfigExam.h"
+
+
+
+
+#endif /* PrefixHeader_pch */
