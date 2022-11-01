@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C65B7000F26BC96048172EB6 /* libPods-XHThemeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E94E42024B159361CDD0CDD /* libPods-XHThemeDemo.a */; };
-		FC674C6D291101ED004819DF /* libXHThemeTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC674C6B291101ED004819DF /* libXHThemeTool.a */; };
 		FCC96ADF290F5AEE00CFF694 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96ADE290F5AEE00CFF694 /* AppDelegate.m */; };
 		FCC96AE2290F5AEE00CFF694 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96AE1290F5AEE00CFF694 /* SceneDelegate.m */; };
 		FCC96AE5290F5AEE00CFF694 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96AE4290F5AEE00CFF694 /* ViewController.m */; };
@@ -36,21 +35,6 @@
 		15184E0ACB352F594DBEF83D /* Pods-XHThemeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHThemeDemo.release.xcconfig"; path = "Target Support Files/Pods-XHThemeDemo/Pods-XHThemeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		17E1DD6F0075700E6BEDA06A /* Pods-XHThemeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHThemeDemo.debug.xcconfig"; path = "Target Support Files/Pods-XHThemeDemo/Pods-XHThemeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3E94E42024B159361CDD0CDD /* libPods-XHThemeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHThemeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC674C5D291101ED004819DF /* UITabBar+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Theme.h"; sourceTree = "<group>"; };
-		FC674C5E291101ED004819DF /* UITabBarItem+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Theme.h"; sourceTree = "<group>"; };
-		FC674C5F291101ED004819DF /* UITextView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Theme.h"; sourceTree = "<group>"; };
-		FC674C60291101ED004819DF /* UIButton+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Theme.h"; sourceTree = "<group>"; };
-		FC674C61291101ED004819DF /* UINavigationBar+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Theme.h"; sourceTree = "<group>"; };
-		FC674C62291101ED004819DF /* UIView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Theme.h"; sourceTree = "<group>"; };
-		FC674C63291101ED004819DF /* NSObject+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Theme.h"; sourceTree = "<group>"; };
-		FC674C64291101ED004819DF /* UIImageView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Theme.h"; sourceTree = "<group>"; };
-		FC674C65291101ED004819DF /* CAShapeLayer+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Theme.h"; sourceTree = "<group>"; };
-		FC674C66291101ED004819DF /* CALayer+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Theme.h"; sourceTree = "<group>"; };
-		FC674C67291101ED004819DF /* UILabel+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Theme.h"; sourceTree = "<group>"; };
-		FC674C68291101ED004819DF /* UITextField+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Theme.h"; sourceTree = "<group>"; };
-		FC674C69291101ED004819DF /* XHThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHThemeManager.h; sourceTree = "<group>"; };
-		FC674C6B291101ED004819DF /* libXHThemeTool.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXHThemeTool.a; sourceTree = "<group>"; };
-		FC674C6C291101ED004819DF /* XHThemeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHThemeHeader.h; sourceTree = "<group>"; };
 		FCC96ADA290F5AEE00CFF694 /* XHThemeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHThemeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC96ADD290F5AEE00CFF694 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCC96ADE290F5AEE00CFF694 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,7 +78,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C65B7000F26BC96048172EB6 /* libPods-XHThemeDemo.a in Frameworks */,
-				FC674C6D291101ED004819DF /* libXHThemeTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,52 +99,6 @@
 				15184E0ACB352F594DBEF83D /* Pods-XHThemeDemo.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		FC674C5A291101ED004819DF /* XHThemeTool */ = {
-			isa = PBXGroup;
-			children = (
-				FC674C5B291101ED004819DF /* Core */,
-				FC674C6A291101ED004819DF /* Lib */,
-				FC674C6C291101ED004819DF /* XHThemeHeader.h */,
-			);
-			path = XHThemeTool;
-			sourceTree = "<group>";
-		};
-		FC674C5B291101ED004819DF /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				FC674C5C291101ED004819DF /* ThemeCategorys */,
-				FC674C69291101ED004819DF /* XHThemeManager.h */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		FC674C5C291101ED004819DF /* ThemeCategorys */ = {
-			isa = PBXGroup;
-			children = (
-				FC674C5D291101ED004819DF /* UITabBar+Theme.h */,
-				FC674C5E291101ED004819DF /* UITabBarItem+Theme.h */,
-				FC674C5F291101ED004819DF /* UITextView+Theme.h */,
-				FC674C60291101ED004819DF /* UIButton+Theme.h */,
-				FC674C61291101ED004819DF /* UINavigationBar+Theme.h */,
-				FC674C62291101ED004819DF /* UIView+Theme.h */,
-				FC674C63291101ED004819DF /* NSObject+Theme.h */,
-				FC674C64291101ED004819DF /* UIImageView+Theme.h */,
-				FC674C65291101ED004819DF /* CAShapeLayer+Theme.h */,
-				FC674C66291101ED004819DF /* CALayer+Theme.h */,
-				FC674C67291101ED004819DF /* UILabel+Theme.h */,
-				FC674C68291101ED004819DF /* UITextField+Theme.h */,
-			);
-			path = ThemeCategorys;
-			sourceTree = "<group>";
-		};
-		FC674C6A291101ED004819DF /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				FC674C6B291101ED004819DF /* libXHThemeTool.a */,
-			);
-			path = Lib;
 			sourceTree = "<group>";
 		};
 		FCC96AD1290F5AEE00CFF694 = {
@@ -186,7 +123,6 @@
 		FCC96ADC290F5AEE00CFF694 /* XHThemeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FC674C5A291101ED004819DF /* XHThemeTool */,
 				FCC96AF7290F5B8700CFF694 /* Demo */,
 				FCC96AF6290F5B0200CFF694 /* Applications */,
 			);
@@ -670,11 +606,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool/Lib/framework",
-					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool/Lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mryel.XHThemeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -707,11 +639,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool/Lib/framework",
-					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool/Lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mryel.XHThemeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
