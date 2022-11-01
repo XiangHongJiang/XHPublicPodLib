@@ -8,9 +8,8 @@
 #ifndef XHThemeHeader_h
 #define XHThemeHeader_h
 
-#pragma mark - -------------- mgr -----------------
 #import "XHThemeManager.h"
-#pragma mark - -------------- base -----------------
+
 #import "UIView+Theme.h"
 #import "UIImageView+Theme.h"
 #import "UILabel+Theme.h"

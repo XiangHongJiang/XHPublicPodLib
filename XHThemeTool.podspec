@@ -1,67 +1,31 @@
 
 Pod::Spec.new do |spec|
 
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  spec.name         = "XHThemeTool"
-  spec.version      = "0.0.1"
-  spec.summary      = "XHThemeTool For Change Theme."
-  spec.description  = <<-DESC
-  基础换肤框架：背景色、图片、文字颜色、边框、导航、Tabbar ...
-                    DESC
-
-  spec.homepage     = "https://github.com/XiangHongJiang/XHPublicPodLib"
-
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  spec.author             = { "jiangxianghong" => "632517555@qq.com" }
- 
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  spec.name     = "XHThemeTool"
+  spec.version  = "0.0.1"
+  spec.summary  = "XHThemeTool For Change Theme."
+  spec.homepage = "https://github.com/XiangHongJiang/XHPublicPodLib"
+  spec.license  = {:type => "MIT", :file => "LICENSE"}
+  spec.license  = "Copyright (c) 2022 MrYeL"
+  spec.author   = { "MrYeL" => "632517555@qq.com" }
+  spec.platform = :ios
+  spec.source   = {:git => "https://github.com/XiangHongJiang/XHPublicPodLib.git",:tag => "#{spec.version}"}
 
 
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  spec.source       = { :git => "https://github.com/XiangHongJiang/XHPublicPodLib.git", :tag => "#{spec.version}" }
-
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  #  spec.source_files = 'XHThemeTool/Lib/**/*'
-    
-    non_arc_files1 = 'XHThemeTool/Lib/Core/*.{h,m}'
-    non_arc_files2 = 'XHThemeTool/Lib/framework/*.a'
-
-    spec.exclude_files = non_arc_files1
-    spec.exclude_files = non_arc_files2
+  spec.default_subspec  = "Core"
+  spec.ios.source_files = "XHThemeTool/XHThemeHeader.h"
 
 
-    # XHThemeTool
-    spec.subspec 'XHThemeTool' do |lib|
-        lib.subspec 'Headers' do |header|
-            header.source_files = 'XHThemeTool/Lib/Core/Headers/*.{h,m}'
-        end
-        
-        lib.subspec 'Mgr' do |mgr|
-            mgr.source_files = 'XHThemeTool/Lib/Core/Mgr/*.{h,m}'
-        end
-        
-        lib.subspec 'ThemeCategorys' do |catagorys|
-            catagorys.source_files = 'XHThemeTool/Lib/Core/ThemeCategorys/*.{h,m}'
-        end
-        
+  spec.subspec 'Core' do |xx|
+    xx.source_files = "XHThemeTool/Core/*.h"
+    xx.subspec 'ThemeCategorys' do |xxx|
+      xxx.source_files = "XHThemeTool/Core/ThemeCategorys/*.{h,m}"
     end
+  end
 
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  spec.subspec 'Lib' do |xx|
+    xx.source_files = "XHThemeTool/Lib/*.a"
+  end
 
-
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
- 
 
 end
