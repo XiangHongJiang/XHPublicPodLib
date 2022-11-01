@@ -13,9 +13,9 @@ Pod::Spec.new do |spec|
 
 
   spec.default_subspec  = "Core"
+  
   spec.ios.source_files = "XHThemeTool/XHThemeHeader.h"
   spec.ios.vendored_libraries = 'XHThemeTool/Core/Lib/*.a'
-  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 
   spec.subspec 'Core' do |xx|
     xx.source_files = "XHThemeTool/Core/*.h"

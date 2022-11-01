@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C65B7000F26BC96048172EB6 /* libPods-XHThemeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E94E42024B159361CDD0CDD /* libPods-XHThemeDemo.a */; };
+		EB6FA62B0DD5B083516BEB1B /* libPods-XHThemeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E94E42024B159361CDD0CDD /* libPods-XHThemeDemo.a */; };
+		FCC63470291140BC00338569 /* libXHThemeTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC6346E291140BC00338569 /* libXHThemeTool.a */; };
 		FCC96ADF290F5AEE00CFF694 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96ADE290F5AEE00CFF694 /* AppDelegate.m */; };
 		FCC96AE2290F5AEE00CFF694 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96AE1290F5AEE00CFF694 /* SceneDelegate.m */; };
 		FCC96AE5290F5AEE00CFF694 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC96AE4290F5AEE00CFF694 /* ViewController.m */; };
@@ -35,6 +36,21 @@
 		15184E0ACB352F594DBEF83D /* Pods-XHThemeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHThemeDemo.release.xcconfig"; path = "Target Support Files/Pods-XHThemeDemo/Pods-XHThemeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		17E1DD6F0075700E6BEDA06A /* Pods-XHThemeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHThemeDemo.debug.xcconfig"; path = "Target Support Files/Pods-XHThemeDemo/Pods-XHThemeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3E94E42024B159361CDD0CDD /* libPods-XHThemeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHThemeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC63460291140BC00338569 /* UITabBar+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Theme.h"; sourceTree = "<group>"; };
+		FCC63461291140BC00338569 /* UITabBarItem+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Theme.h"; sourceTree = "<group>"; };
+		FCC63462291140BC00338569 /* UITextView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Theme.h"; sourceTree = "<group>"; };
+		FCC63463291140BC00338569 /* UIButton+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Theme.h"; sourceTree = "<group>"; };
+		FCC63464291140BC00338569 /* UINavigationBar+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Theme.h"; sourceTree = "<group>"; };
+		FCC63465291140BC00338569 /* UIView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Theme.h"; sourceTree = "<group>"; };
+		FCC63466291140BC00338569 /* NSObject+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Theme.h"; sourceTree = "<group>"; };
+		FCC63467291140BC00338569 /* UIImageView+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Theme.h"; sourceTree = "<group>"; };
+		FCC63468291140BC00338569 /* CAShapeLayer+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Theme.h"; sourceTree = "<group>"; };
+		FCC63469291140BC00338569 /* CALayer+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Theme.h"; sourceTree = "<group>"; };
+		FCC6346A291140BC00338569 /* UILabel+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Theme.h"; sourceTree = "<group>"; };
+		FCC6346B291140BC00338569 /* UITextField+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Theme.h"; sourceTree = "<group>"; };
+		FCC6346C291140BC00338569 /* XHThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHThemeManager.h; sourceTree = "<group>"; };
+		FCC6346E291140BC00338569 /* libXHThemeTool.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXHThemeTool.a; sourceTree = "<group>"; };
+		FCC6346F291140BC00338569 /* XHThemeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHThemeHeader.h; sourceTree = "<group>"; };
 		FCC96ADA290F5AEE00CFF694 /* XHThemeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHThemeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC96ADD290F5AEE00CFF694 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCC96ADE290F5AEE00CFF694 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,7 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C65B7000F26BC96048172EB6 /* libPods-XHThemeDemo.a in Frameworks */,
+				EB6FA62B0DD5B083516BEB1B /* libPods-XHThemeDemo.a in Frameworks */,
+				FCC63470291140BC00338569 /* libXHThemeTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +116,52 @@
 				15184E0ACB352F594DBEF83D /* Pods-XHThemeDemo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCC6345D291140BC00338569 /* XHThemeTool */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6345E291140BC00338569 /* Core */,
+				FCC6346F291140BC00338569 /* XHThemeHeader.h */,
+			);
+			path = XHThemeTool;
+			sourceTree = "<group>";
+		};
+		FCC6345E291140BC00338569 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6345F291140BC00338569 /* ThemeCategorys */,
+				FCC6346C291140BC00338569 /* XHThemeManager.h */,
+				FCC6346D291140BC00338569 /* Lib */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FCC6345F291140BC00338569 /* ThemeCategorys */ = {
+			isa = PBXGroup;
+			children = (
+				FCC63460291140BC00338569 /* UITabBar+Theme.h */,
+				FCC63461291140BC00338569 /* UITabBarItem+Theme.h */,
+				FCC63462291140BC00338569 /* UITextView+Theme.h */,
+				FCC63463291140BC00338569 /* UIButton+Theme.h */,
+				FCC63464291140BC00338569 /* UINavigationBar+Theme.h */,
+				FCC63465291140BC00338569 /* UIView+Theme.h */,
+				FCC63466291140BC00338569 /* NSObject+Theme.h */,
+				FCC63467291140BC00338569 /* UIImageView+Theme.h */,
+				FCC63468291140BC00338569 /* CAShapeLayer+Theme.h */,
+				FCC63469291140BC00338569 /* CALayer+Theme.h */,
+				FCC6346A291140BC00338569 /* UILabel+Theme.h */,
+				FCC6346B291140BC00338569 /* UITextField+Theme.h */,
+			);
+			path = ThemeCategorys;
+			sourceTree = "<group>";
+		};
+		FCC6346D291140BC00338569 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6346E291140BC00338569 /* libXHThemeTool.a */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 		FCC96AD1290F5AEE00CFF694 = {
@@ -123,6 +186,7 @@
 		FCC96ADC290F5AEE00CFF694 /* XHThemeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FCC6345D291140BC00338569 /* XHThemeTool */,
 				FCC96AF7290F5B8700CFF694 /* Demo */,
 				FCC96AF6290F5B0200CFF694 /* Applications */,
 			);
@@ -606,7 +670,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool/Core/Lib",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mryel.XHThemeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -639,7 +706,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool/Core/Lib",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mryel.XHThemeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
