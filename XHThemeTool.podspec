@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name     = "XHThemeTool"
-  spec.version  = "0.0.3"
+  spec.version  = "0.0.4"
   spec.summary  = "XHThemeTool For Change Theme."
   spec.homepage = "https://github.com/XiangHongJiang/XHPublicPodLib"
   spec.license  = {:type => "MIT", :file => "LICENSE"}
@@ -14,7 +14,8 @@ Pod::Spec.new do |spec|
 
   spec.default_subspec  = "Core"
   spec.ios.source_files = "XHThemeTool/XHThemeHeader.h"
-
+  spec.ios.vendored_libraries = 'XHThemeTool/Core/Lib/*.a'
+  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 
   spec.subspec 'Core' do |xx|
     xx.source_files = "XHThemeTool/Core/*.h"
