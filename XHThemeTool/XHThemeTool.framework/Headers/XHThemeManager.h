@@ -7,10 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-/**
- 换肤通知的Key
- */
-FOUNDATION_EXPORT NSString * _Nonnull const NotiSkinChangedKey;
 
 #pragma mark - -------------- define -----------------
 #define TColor(name) [XHThemeManager theme_ColorWithColorKey:name]
