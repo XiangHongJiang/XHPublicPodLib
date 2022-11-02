@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
   spec.source   = {:git => "https://github.com/XiangHongJiang/XHPublicPodLib.git",:tag => "#{spec.version}"}
 
   spec.vendored_framework = 'XHThemeTool/XHThemeTool.framework'
-
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 end
