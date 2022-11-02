@@ -1,24 +1,16 @@
 PODS:
   - SSZipArchive (2.4.3)
-  - XHThemeTool (0.0.1):
-    - XHThemeTool/Core (= 0.0.1)
-  - XHThemeTool/Core (0.0.1):
-    - XHThemeTool/Core/ThemeCategorys (= 0.0.1)
-  - XHThemeTool/Core/ThemeCategorys (0.0.1)
 
 DEPENDENCIES:
   - SSZipArchive
-  - XHThemeTool
 
 SPEC REPOS:
   trunk:
     - SSZipArchive
-    - XHThemeTool
 
 SPEC CHECKSUMS:
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
-  XHThemeTool: 3c9e490ff702f36f6b9d255ad87e582217242c5d
 
-PODFILE CHECKSUM: bcb577ca5be994e020d4f91642bfb8e314c64d03
+PODFILE CHECKSUM: 78875e4da864841cd6bda7c0233ba7635292f193
 
 COCOAPODS: 1.11.2

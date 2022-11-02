@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.source   = {:git => "https://github.com/XiangHongJiang/XHPublicPodLib.git",:tag => "#{spec.version}"}
 
-  spec.vendored_framework = 'XHThemeTool/XHThemeTool'
+  spec.vendored_framework = 'XHThemeTool/XHThemeTool.framework'
 
 
 end
