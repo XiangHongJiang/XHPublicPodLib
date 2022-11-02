@@ -15,6 +15,7 @@
 
 #pragma mark - tools
 #import <XHThemeTool/XHThemeTool.h>
+#import <XHThemeTool/XHThemeManager.h>
 #import "XHThemeConfigExam.h"
 
 

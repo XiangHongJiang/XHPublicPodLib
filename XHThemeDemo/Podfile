@@ -4,6 +4,6 @@ target 'XHThemeDemo' do
 
 pod 'SSZipArchive'
 
-#pod 'XHThemeTool', path => '../XHThemeTool'
+pod 'XHThemeTool','~> 0.0.5'
 
 end

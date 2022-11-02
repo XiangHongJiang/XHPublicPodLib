@@ -35,6 +35,7 @@
 		15184E0ACB352F594DBEF83D /* Pods-XHThemeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHThemeDemo.release.xcconfig"; path = "Target Support Files/Pods-XHThemeDemo/Pods-XHThemeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		17E1DD6F0075700E6BEDA06A /* Pods-XHThemeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHThemeDemo.debug.xcconfig"; path = "Target Support Files/Pods-XHThemeDemo/Pods-XHThemeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3E94E42024B159361CDD0CDD /* libPods-XHThemeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHThemeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAEBF8429125E2800268B2A /* libXHThemeTool.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXHThemeTool.a; path = Pods/XHThemeTool/XHThemeTool/Core/Lib/libXHThemeTool.a; sourceTree = "<group>"; };
 		FCC96ADA290F5AEE00CFF694 /* XHThemeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHThemeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC96ADD290F5AEE00CFF694 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCC96ADE290F5AEE00CFF694 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				3E94E42024B159361CDD0CDD /* libPods-XHThemeDemo.a */,
+				FCAEBF8429125E2800268B2A /* libXHThemeTool.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -525,7 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -577,7 +579,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -593,10 +595,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XHThemeDemo/Demo/Utils/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XHThemeDemo/Info.plist;
@@ -612,7 +611,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool/Core/Lib",
+					"$(PROJECT_DIR)/Pods/XHThemeTool/XHThemeTool/Core/Lib",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mryel.XHThemeDemo;
@@ -633,10 +632,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XHThemeDemo/Demo/Utils/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XHThemeDemo/Info.plist;
@@ -653,6 +649,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/XHThemeDemo/XHThemeTool/Core/Lib",
+					"$(PROJECT_DIR)/Pods/XHThemeTool/XHThemeTool/Core/Lib",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mryel.XHThemeDemo;

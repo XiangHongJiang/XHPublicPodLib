@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "XHThemeManager.h"
 
 static NSString * const themeClassFile0 = @"ThemeClass0.plist";
 static NSString * const themeClassFile1 = @"ThemeClass1.plist";
