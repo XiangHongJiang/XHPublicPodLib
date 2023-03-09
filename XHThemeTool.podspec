@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name     = "XHThemeTool"
-  spec.version  = "0.0.6"
+  spec.version  = "0.0.7"
   spec.summary  = "XHThemeTool For Change Theme."
   spec.homepage = "https://github.com/XiangHongJiang/XHPublicPodLib"
   spec.license  = {:type => "MIT", :file => "LICENSE"}
