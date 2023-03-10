@@ -4,6 +4,6 @@ target 'XHThemeDemo' do
 
 pod 'SSZipArchive'
 
-pod 'XHThemeTool','~> 0.0.6'
+pod 'XHThemeTool','~> 0.0.7'
 
 end
